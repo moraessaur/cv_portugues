@@ -8,7 +8,7 @@
 datadrivencv::use_datadriven_cv(
   full_name = "Lucas Moraes",
   data_location = "https://docs.google.com/spreadsheets/d/1cS1B_1uhFjqx0581ydz_mXhuvdXVJGJxVOn82fSANm0/edit?usp=sharing",
-  pdf_location = "/home/zazen/github/cv_vitae/",
-  html_location = "/home/zazen/github/cv_vitae/",
-  source_location = "/home/zazen/github/cv_vitae/"
+  pdf_location = "/home/zazen/github/cv_datadriven/",
+  html_location = "/home/zazen/github/cv_datadriven/",
+  source_location = "/home/zazen/github/cv_datadriven/"
 )

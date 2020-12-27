@@ -42,113 +42,92 @@ if(params$pdf_mode) {
 ```
 
 
-Aside
-================================================================================
-
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
-
-<br>
-<br>
-
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at _/home/zazen/github/cv_vitae/_")
-} else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](/home/zazen/github/cv_vitae/)")
-}
-```
-
-Contato {#contact}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_contact_info()
-```
-
-
-
-Capacitação técnica {#skills}
---------------------------------------------------------------------------------
-
-<i class="fab fa-r-project"></i> `R`
-
-<i class="fa fa-bandcamp" aria-hidden="true"></i> `Uhul`
-
-* Teste
-
-<i class="fa fa-area-chart" aria-hidden="true"></i>
- `tidyverse`
-
-<i class="fa fa-flask" aria-hidden="true"></i> `Método científico`
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
-
-The source code is available [on github.com/nstrayer/cv](/home/zazen/github/cv_vitae/).
-
-Last updated on `r Sys.Date()`.
-
-
-
 Main
 ================================================================================
 
 Lucas Moraes {#title}
 --------------------------------------------------------------------------------
 
+<p align="justify">
 ```{r}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block("intro") 
 ```
+</p>
 
-Experiência Profissional {data-icon=suitcase}
+Experiência Profissional Recente {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-```{r}
-CV %<>% print_text_block('experiencia_profissional_aside')
-```
+**Contato & Portfolio**
+
+<i class="fa fa-home"></i> [lucasmoraes.org](https://lucasmoraes.org)
+
+<i class="fa fa-envelope"></i> moraessaur@gmail.com
+
+<i class="fas fa-file-code"></i> [lucasmoraes.blog](https://lucasmoraes.blog)
+
+<i class="fa fa-github"></i> [GitHub: `@`moraessaur](https://github.com/moraessaur)
+
+<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/lucas-moraes-78944a32/)
+
 :::
 
 ```{r}
-CV %<>% print_section('experiencia_profissional')
+CV %<>% print_section('experiencia_profissional_recente')
 ```
 
-Education {data-icon=graduation-cap data-concise=true}
+<br>
+<br>
+<br>
+
+Educação {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
+
+::: aside
+```{r,eval=FALSE}
+# Tirei isso aqui com eval, eh a intro secundaria na barra lateral
+CV %<>% print_text_block('experiencia_profissional_recente_aside')
+```
+
+
+**Capacitação técnica**
+**__________________**
+
+<i class="fas fa-award"></i> **Inglês fluente**
+
+<i class="fas fa-leaf"></i> **IUCN Red List**
+
+<i class="fas fa-camera"></i> **Adobe photoshop**
+
+<i class="fab fa-r-project"></i> **R**
+
+<i class="fab fa-fort-awesome"></i> **Tidyverse**
+
+<i class="fab fa-markdown"></i> **markdown**
+
+<i class="fas fa-chart-area"></i> **Data Viz**
+
+<i class="fab fa-python"></i> **Python**
+
+<i class="fas fa-chart-bar"></i> **Estatística**
+:::
+
+
+
 
 ```{r}
 CV %<>% print_section('education')
 ```
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
 
 
-Selected Publications, Posters, and Talks {data-icon=book}
+Algumas produções bibliográficas {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
-
-
 
 
 

@@ -122,3 +122,7 @@ sup {
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
 }
+
+a {
+  color: #444;
+}
