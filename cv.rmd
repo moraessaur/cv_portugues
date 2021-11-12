@@ -71,7 +71,7 @@ Experiência Profissional Recente {data-icon=suitcase}
 
 <i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/lucas-moraes-78944a32/)
 
-<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/xacf5bcr6k9dlci/df_iucn_assessments.txt?dl=1).
+<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/ccbd56ecwe7j5gc/cv.pdf?dl=1).
 
 :::
 
