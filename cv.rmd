@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1cS1B_1uhFjqx0581ydz_mXhuvdXVJGJxVOn82fSANm0/edit?usp=sharing",  
+  data_location = "https://docs.google.com/spreadsheets/d/1zr0k4Z8eeHKg5p_-wLH6HMpJUqsoodupbQBaxbuHVKA/edit?usp=sharing",  
   pdf_mode = params$pdf_mode
 )
 
@@ -71,7 +71,7 @@ Experiência Profissional Recente {data-icon=suitcase}
 
 <i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/lucas-moraes-78944a32/)
 
-<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/ccbd56ecwe7j5gc/cv.pdf?dl=1).
+<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/quprhljg2qj6qnv/cv.pdf?dl=1).
 
 :::
 
@@ -86,6 +86,9 @@ CV %<>% print_section('experiencia_profissional_recente')
 <br>
 <br>
 <br>
+<br>
+<br>
+
 
 Educação {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -100,23 +103,25 @@ CV %<>% print_text_block('experiencia_profissional_recente_aside')
 **Capacitação técnica**
 **__________________**
 
-<i class="fas fa-award"></i> **Inglês fluente**
-
-<i class="fas fa-leaf"></i> **IUCN Red List**
-
-<i class="fas fa-camera"></i> **Adobe photoshop**
-
 <i class="fab fa-r-project"></i> **R**
-
-<i class="fab fa-fort-awesome"></i> **Tidyverse**
-
-<i class="fab fa-markdown"></i> **markdown**
-
-<i class="fas fa-chart-area"></i> **Data Viz**
 
 <i class="fab fa-python"></i> **Python**
 
+<i class="fa fa-bolt"></i> **Spark**
+
+<i class="fa fa-database"></i> **SQL**
+
 <i class="fas fa-chart-bar"></i> **Estatística**
+
+<i class="fas fa-robot"></i> **Machine Learning**
+
+<i class="fas fa-chart-area"></i> **Data Viz**
+
+<i class="fas fa-award"></i> **Inglês fluente**
+
+<i class="fas fa-users"></i> **Soft Skills**
+
+
 :::
 
 
@@ -128,7 +133,7 @@ CV %<>% print_section('education')
 
 
 
-Algumas produções bibliográficas {data-icon=book}
+Mais sobre mim {data-icon=address-card}
 --------------------------------------------------------------------------------
 
 ```{r}
