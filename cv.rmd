@@ -65,13 +65,11 @@ Experiência Profissional Recente {data-icon=suitcase}
 
 <i class="fa fa-envelope"></i> moraessaur@gmail.com
 
-<i class="fas fa-file-code"></i> [lucasmoraes.blog](https://lucasmoraes.blog)
-
 <i class="fa fa-github"></i> [GitHub: `@`moraessaur](https://github.com/moraessaur)
 
 <i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/lucas-moraes-78944a32/)
 
-<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/quprhljg2qj6qnv/cv.pdf?dl=1).
+<i class='fas fa-download'></i> [Download do CV em pdf](https://www.dropbox.com/s/dk90l5cjqgo6v16/cv.pdf?dl=1).
 
 :::
 
@@ -81,6 +79,7 @@ Experiência Profissional Recente {data-icon=suitcase}
 CV %<>% print_section('experiencia_profissional_recente')
 ```
 
+<br>
 <br>
 <br>
 <br>
@@ -120,7 +119,6 @@ CV %<>% print_text_block('experiencia_profissional_recente_aside')
 <i class="fas fa-award"></i> **Inglês fluente**
 
 <i class="fas fa-users"></i> **Soft Skills**
-
 
 :::
 

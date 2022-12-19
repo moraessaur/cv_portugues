@@ -18,4 +18,4 @@ rmarkdown::render("cv.rmd",
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "cv.pdf")
+                       output = "cv_lucas_moraes_data_science.pdf")
